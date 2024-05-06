@@ -25,7 +25,7 @@ public class InputAthleteInfo extends AthleteInfo{
             }
         }
 
-            //for training plan inputS
+            
             while (true) {
                 System.out.println("In our training center, there are three training plan:'Beginner', 'Intermediate','Elite', Please Choose one!! ");
                 setTrainingPlan(scan.nextLine());
@@ -129,7 +129,7 @@ public class InputAthleteInfo extends AthleteInfo{
 
         // for private coaching input
 
-        // for private coaching input
+
 
 
         // for private coaching input
@@ -138,7 +138,7 @@ public class InputAthleteInfo extends AthleteInfo{
             scan=new Scanner(System.in);
             String ans=scan.nextLine();
             if(ans.equalsIgnoreCase("yes")){
-                System.out.println("Please Enter the no of hours for private coaching");
+                System.out.println("Please Enter the numbers of hours for private coaching");
                 boolean isDouble= false;
                 while(isDouble==false){
                     scan=new Scanner(System.in);
